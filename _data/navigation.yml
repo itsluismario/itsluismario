@@ -1,0 +1,22 @@
+# main links links
+main:
+#  - title: "Work Experience "
+ #   url: /publications/
+
+  - title: "Work Experience"
+    url: /Work/    
+
+ # - title: "Teaching"
+ #   url: /teaching/    
+    
+  - title: "Personal Projects"
+    url: /portfolio/
+        
+  #- title: "Blog Posts"
+  #  url: /year-archive/
+    
+  - title: "Certifications / Awards"
+    url:  /CV/
+    
+  #- title: "Guide"
+   # url: /markdown/
