@@ -9,7 +9,7 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <main className="flex flex-col items-center justify-center ">
+      <main className="flex flex-col items-center justify-center dark:border-neutral-800">
         <Navbar />
         <div className="flex flex-col items-center justify-center h-[90vh] overflow-auto">
           <div className="grid text-center lg:mb-0 lg:grid-cols-4">

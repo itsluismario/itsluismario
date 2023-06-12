@@ -37,7 +37,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center z-10 w-full max-w-5xl text-sm lg:flex p-4 border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:from-inherit lg:static">
+    <nav className="flex justify-between items-center z-10 w-full max-w-5xl text-sm lg:flex border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:from-inherit lg:static">
       <div className="text-white">
         <Link legacyBehavior href="/">
           <a className="text-xl font-bold">Hi, it&apos;s luismario</a>

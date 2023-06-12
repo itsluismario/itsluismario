@@ -3,7 +3,7 @@ import data from '@src/data/projectsData';
 
 const Projects = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10 flex flex-col '>
       {
         data?.map((item, index) =>
           <section key={index} className="text-left max-w-screen-sm group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30">
