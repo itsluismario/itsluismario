@@ -1,18 +1,16 @@
 import React from 'react';
-import AboutMe from '@src/components/AboutMe/AboutMe';
-import Skills from '@src/components/Skills/skills';
+import Projects from '@src/components/Projects/Projects';
 import Navbar from '@src/components/Navbar/Navbar';
 
-const About = () => {
+const MyProjects = () => {
   return (
     <main className="flex flex-col items-center justify-between">
       <Navbar/>
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <AboutMe/>
-        <Skills/>
+        <Projects/>
       </div>
     </main>
   );
 };
 
-export default About;
+export default MyProjects;

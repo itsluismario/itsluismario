@@ -9,13 +9,10 @@ import { log } from 'console';
 const Skills = () => {
   
   return (
-    <a
-    className="text-left max-w-screen-sm group rounded-lg border border-transparent px-5 py-4 mb-20 transition-colors"
-    target="_blank"
-    rel="noopener noreferrer"
-    >
+    <div
+    className="text-left max-w-screen-sm group rounded-lg border border-transparent px-5 py-4 mb-20 transition-colors">
         <h2 className="mb-3 text-2xl font-semibold">
-        Skills
+        Hard skills 
         </h2>
         <ChipGroup className={'pb-4'}>
           {skills
@@ -37,7 +34,7 @@ const Skills = () => {
               );
             })}
           </ChipGroup>
-    </a>
+    </div>
   )
 }
 

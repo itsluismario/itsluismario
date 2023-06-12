@@ -13,8 +13,10 @@ type Props = {
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <div className={inter.className}>      
+    <div className={inter.className}>  
+       
           { children }
+     
     </div>
   )
 }

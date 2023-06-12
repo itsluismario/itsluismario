@@ -1,14 +1,18 @@
 import { AppProps } from "next/app"
 import Layout from '../components/Layout/Layout'
-import './globals.css'
 import { Inter } from 'next/font/google'
+import MyInfoProvider from "@src/context"
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-    return (
-    <Layout>
+  return (
+    
+      <Layout>
+        <MyInfoProvider>
         <Component {...pageProps} />
-    </Layout>
-    )
-  }
+        </MyInfoProvider>
+      </Layout>
+  )
+}
