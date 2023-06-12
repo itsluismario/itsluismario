@@ -13,7 +13,7 @@ interface MyInfoContextType {
 
 export const myInfoContext = createContext<MyInfoContextType | null>(null);
 
-const MyInfoProvider: React.FC = ({ children }:any) => {
+const MyInfoProvider = ({ children }: { children: React.ReactNode }) => {
 
   const [branchesList, setBranchesList] = useState<Branch[]>([]);
 
