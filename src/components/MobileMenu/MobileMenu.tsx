@@ -13,7 +13,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="lg:hidden  pr-6">
+    <div className="lg:hidden  pr-4">
       <button
         className="text-gray-600 hover:text-gray-800 focus:outline-none"
         onClick={toggleMenu}

@@ -80,7 +80,7 @@ const data = [
         "link": "Run local",
         "color": "",
         "darkColor": "",
-        "stack": ["Django", "JavaScript", "JQuery" , "Bootstrap"],
+        "stack": ["Django", "JavaScript", "JQuery"],
         "repo": "https://github.com/itsluismario/artezzanos"
       },
       {
