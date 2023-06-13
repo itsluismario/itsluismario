@@ -4,6 +4,7 @@ import MyInfoProvider  from "@src/context";
 import "./globals.css";
 import Navbar from "@src/components/Navbar/Navbar";
 import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -19,6 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Navbar/>
       <Layout>
         <Component {...pageProps} />
+        <Analytics />
       </Layout>
     </MyInfoProvider>
   );

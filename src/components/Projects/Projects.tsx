@@ -10,26 +10,26 @@ const Projects = () => {
             <h2 className="mb-3 font-semibold">
               {item.name}
             </h2>
-            <p className="text-xs opacity-90">
+            <p className="text-ms opacity-90">
               Description: {item.description}
             </p>
             <section className='flex flex-row space-x-4'>
-              <p className="text-xs opacity-90">Stack:</p>
+              <p className="text-ms opacity-90">Stack:</p>
               {item.stack.map((technology, index) => (
-                <ul className="text-xs opacity-90" key={index}>{technology}</ul>
+                <ul className="text-ms opacity-90" key={index}>{technology}</ul>
               ))}
             </section>
 
             <div className='flex flex-row space-x-4'>
               {item.link.length !== 9 ? (
-                <p className="text-xs opacity-90 ">
+                <p className="text-ms opacity-90 ">
                   <a href={item.link} key={item.link} className="text-blue-600 visited:text-blue-600">
                     View
                   </a>
                 </p>
               ) : null}
 
-              <p className="text-xs opacity-90 ">
+              <p className="text-ms opacity-90 ">
                 <a href={item.repo} key={item.repo} className="text-blue-600 visited:text-blue-600">
                   Repo
                 </a>
