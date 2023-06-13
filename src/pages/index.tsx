@@ -7,9 +7,9 @@ const HomePage = () => {
   const context = useContext(myInfoContext);
 
   return (
-      <main className="flex flex-col items-center justify-center dark:border-neutral-800">
+      <main className="flex flex-col items-center justify-center border-neutral-800">
         <Layout>
-        <div className="flex flex-col items-center justify-center mt-10">
+        <div className="flex flex-col items-center justify-center">
           <div className="grid text-center lg:mb-0 lg:grid-cols-4">
             {context?.branchesList?.map((branch:any) => (
               <Branches

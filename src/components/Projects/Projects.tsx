@@ -3,8 +3,8 @@ import data from '@src/data/projectsData';
 
 const Projects = () => {
   return (
-    <div className='mx-auto'>
-    <div className='mt-10 flex flex-col'>
+    
+    <div className='flex flex-col'>
       {
         data?.map((item, index) =>
           <section key={index} className="rounded-lg border border-transparent transition-colors hover:border-neutral-700 hover:bg-neutral-800 hover:bg-opacity-30 p-6">
@@ -40,7 +40,7 @@ const Projects = () => {
         )
       }
     </div>
-    </div>
+ 
   );
 };
 

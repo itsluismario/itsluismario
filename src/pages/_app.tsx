@@ -4,7 +4,6 @@ import MyInfoProvider  from "@src/context";
 import "./globals.css";
 import Navbar from "@src/components/Navbar/Navbar";
 import Head from 'next/head';
-import avatar from '../static/avatar.svg'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (

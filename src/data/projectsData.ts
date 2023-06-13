@@ -44,7 +44,7 @@ const data = [
         "link": "Run local",
         "color": "",
         "darkColor": "",
-        "stack": ["Django", "JavaScript", "CSS", "HTML", "Bootstrap"],
+        "stack": ["Django", "JavaScript", "Bootstrap"],
         "repo": "https://github.com/itsluismario/js-portfolio-with-webpack"
       },
       {
@@ -116,7 +116,7 @@ const data = [
         "link": "Run local",
         "color": "",
         "darkColor": "",
-        "stack": ["Django", "JavaScript", "CSS", "HTML", "Bootstrap"],
+        "stack": ["Django", "JavaScript", "Bootstrap"],
         "repo": "https://github.com/itsluismario/wiki-project-cs50"
       }
 ] 
