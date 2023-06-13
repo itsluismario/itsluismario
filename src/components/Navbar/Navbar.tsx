@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center fixed z-10 top-0 w-full max-w-5xl text-sm lg:flex p-4 border-b pb-6 pt-8 backdrop-blur-2xl border-neutral-800 from-inherit lg:static">
       <div className="text-white">
         <Link legacyBehavior href="/">
-          <a className="text-xl font-bold ">Hi, it&apos;s luismario</a>
+          <a className="text-xl font-bold ">Hi, It&apos;s luismario</a>
         </Link>
       </div>
       {isMobile ? <MobileMenu /> : renderMenu()}

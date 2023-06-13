@@ -25,7 +25,7 @@ const MyInfoProvider = ({ children }: { children: React.ReactNode }) => {
         url: '/my-philosophy',
       },
       {
-        title: 'About me',
+        title: 'About Me',
         subtitle: 'What is my goal in the next 10 years?',
         url: '/about',
       },
