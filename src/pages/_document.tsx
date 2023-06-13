@@ -11,7 +11,7 @@ class MyDocument extends Document {
             {/* Stylesheet */}
             {/* script/js */}
         </Head>
-        <body className='my-body-class'>
+        <body className='dark'>
           <Main />
           <NextScript />
         </body>

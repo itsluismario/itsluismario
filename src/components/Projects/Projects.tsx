@@ -3,11 +3,12 @@ import data from '@src/data/projectsData';
 
 const Projects = () => {
   return (
-    <div className='mt-10 flex flex-col '>
+    <div className='mx-auto'>
+    <div className='mt-10 flex flex-col'>
       {
         data?.map((item, index) =>
-          <section key={index} className="text-left max-w-screen-sm group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30">
-            <h2 className="mb-3 text-2xl font-semibold">
+          <section key={index} className="rounded-lg border border-transparent transition-colors hover:border-neutral-700 hover:bg-neutral-800 hover:bg-opacity-30 p-6">
+            <h2 className="mb-3 font-semibold">
               {item.name}
             </h2>
             <p className="text-sm opacity-90">
@@ -38,6 +39,7 @@ const Projects = () => {
           </section>
         )
       }
+    </div>
     </div>
   );
 };

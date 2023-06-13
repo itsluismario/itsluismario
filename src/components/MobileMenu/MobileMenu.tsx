@@ -13,7 +13,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="lg:hidden">
+    <div className="lg:hidden  pr-6">
       <button
         className="text-gray-600 hover:text-gray-800 focus:outline-none"
         onClick={toggleMenu}
@@ -22,8 +22,8 @@ const MobileMenu = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute inset-x-0 top-4 bg-black shadow-lg">
-          <nav className="flex flex-col border-b border-gray-300 pb-6 dark:border-neutral-800 ">
+        <div className="absolute inset-x-0 top-0 pt-6 bg-black shadow-lg">
+          <nav className="flex flex-col border-b border-gray-700 pb-6 dark:border-neutral-800 ">
           <button
               className="text-gray-600 hover:text-gray-800 focus:outline-none flex items-center justify-end py-4 px-4 mx-4"
               onClick={toggleMenu}

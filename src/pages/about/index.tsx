@@ -6,7 +6,6 @@ import Navbar from '@src/components/Navbar/Navbar';
 const About = () => {
   return (
     <main className="flex flex-col items-center justify-between">
-      <Navbar/>
       <div className="flex flex-col items-center justify-center min-h-screen">
         <AboutMe/>
         <Skills/>
