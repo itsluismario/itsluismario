@@ -1,14 +1,14 @@
 import React from 'react';
-import CV from '@src/components/CV/CV';
-import Skills from '@src/components/Skills/skills';
-import Navbar from '@src/components/Navbar/Navbar';
+import Link from 'next/link';
 
-const About = () => {
+const CV = () => {
   return (
     <main className="flex flex-col items-center justify-between">
-        <CV/>
+      <Link href="https://sapphire-beatriz-43.tiiny.site" legacyBehavior>
+        <a>Open CV</a>
+      </Link>
     </main>
   );
 };
 
-export default About;
+export default CV;
