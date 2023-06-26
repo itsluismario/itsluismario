@@ -16,7 +16,8 @@ import {
   mdiTailwind,
   nextJs,
   mdiLanguagePython,
-  mdiLangC
+  mdiLangC,
+  mdiFirebase
 } from '../Icons';
 
 interface Skill {
@@ -42,7 +43,8 @@ export const skills: Skill[] = [
   { name: 'Node.js', iconPath: mdiNodejs, color: '#61af43' },
   { name: 'Express', iconPath: mdiPuzzleOutline, color: '#888888' },
   { name: 'Git', iconPath: mdiGit, color: '#fc6d26' },
-  { name: 'Django', iconPath: mdiLanguagePython, color: '#fc6d26' },
+  // { name: 'Django', iconPath: mdiLanguagePython, color: '#fc6d26' },
   { name: 'Python', iconPath: mdiLanguagePython, color: '#fc6d26' },
-  { name: 'C++', iconPath: mdiLangC, color: '#fc6d26' },
+  { name: 'Firebase', iconPath: mdiFirebase, color: '#fc6d26' },
+  
 ];
