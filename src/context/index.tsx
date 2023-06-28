@@ -34,11 +34,11 @@ const MyInfoProvider = ({ children }: { children: React.ReactNode }) => {
         subtitle: 'Implementing my learnings',
         url: '/projects',
       },
-      {
-        title: 'Startup',
-        subtitle: 'Trying to build the future',
-        url: '/startup',
-      },
+      // {
+      //   title: 'Startup',
+      //   subtitle: 'Trying to build the future',
+      //   url: '/startup',
+      // },
 
     ];
     setBranchesList(branchesInfo);

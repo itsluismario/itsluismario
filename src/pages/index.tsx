@@ -10,7 +10,7 @@ const HomePage = () => {
       <main className="flex flex-col items-center justify-center border-neutral-800">
         <Layout>
         <div className="flex flex-col items-center justify-center">
-          <div className="grid text-center lg:mb-0 lg:grid-cols-4">
+          <div className="grid text-center lg:mb-0 lg:grid-cols-3">
             {context?.branchesList?.map((branch:any) => (
               <Branches
                 key={branch.title}
