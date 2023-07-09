@@ -57,7 +57,7 @@ const data = [
         "color": "",
         "darkColor": "",
         "stack": ["Django", "JavaScript", "Bootstrap"],
-        "repo": "https://github.com/itsluismario/js-portfolio-with-webpack"
+        "repo": "https://github.com/itsluismario/Login-logout-registration-with-django"
       },
       {
         "order": 4,
