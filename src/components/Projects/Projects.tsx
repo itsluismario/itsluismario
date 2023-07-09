@@ -24,7 +24,7 @@ const Projects = () => {
               {item.link.length !== 9 ? (
                 <p className="text-ms opacity-90 ">
                   <a href={item.link} key={item.link} className="text-blue-600 visited:text-blue-600">
-                    View
+                    View Project
                   </a>
                 </p>
               ) : null}

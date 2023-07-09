@@ -1,6 +1,18 @@
 const data = [
     {
       "order": 0,
+      "name": "API Rest with Express.js",
+      "description": "API",
+      "icon": "",
+      "preview": "",
+      "link": "https://api-rest-with-express.vercel.app/api/",
+      "color": "",
+      "darkColor": "",
+      "stack": ["JavaScript ", "Node.js", "Heroku ", "Vercel "],
+      "repo": "https://github.com/itsluismario/API-Rest-with-Express"
+    },
+    {
+      "order": 0,
       "name": "Shopi",
       "description": "E-commerce",
       "icon": "",
@@ -89,7 +101,7 @@ const data = [
         "description": "Landing page using asyncronous functions",
         "icon": "",
         "preview": "",
-        "link": "Run local",
+        "link": "https://itsluismario.github.io/asyncLanding/",
         "color": "",
         "darkColor": "",
         "stack": ["JavaScript", "CSS", "HTML"],
