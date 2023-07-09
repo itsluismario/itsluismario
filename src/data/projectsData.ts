@@ -81,7 +81,7 @@ const data = [
         "color": "",
         "darkColor": "",
         "stack": ["React", "JavaScript", "CSS", "HTML"],
-        "repo": "hhttps://github.com/itsluismario/E-commerce-with-react"
+        "repo": "https://github.com/itsluismario/E-commerce-with-react"
       },
       {
         "order": 6,
