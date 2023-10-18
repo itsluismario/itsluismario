@@ -35,17 +35,27 @@ const Skills = () => {
             })}
               <li>
                   <Chip className={color}>
-                  <span className={'font-[300] '}>MySQL</span>
-                  </Chip>
-              </li>
-              <li>
-                  <Chip className={color}>
                   <span className={'font-[300] '}>C++</span>
                   </Chip>
               </li>
               <li>
                   <Chip className={color}>
                   <span className={'font-[300] '}>Django</span>
+                  </Chip>
+              </li>
+              <li>
+                  <Chip className={color}>
+                  <span className={'font-[300] '}>SQL</span>
+                  </Chip>
+              </li>
+              <li>
+                  <Chip className={color}>
+                  <span className={'font-[300] '}>Heroku</span>
+                  </Chip>
+              </li>
+              <li>
+                  <Chip className={color}>
+                  <span className={'font-[300] '}>Vercel</span>
                   </Chip>
               </li>
           </ChipGroup>
