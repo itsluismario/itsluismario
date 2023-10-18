@@ -2,7 +2,7 @@ const data = [
     {
       "order": 0,
       "name": "API Rest with Express.js",
-      "description": "API",
+      "description": "I developed the backend using Node.js, worked with routes, servers, and Express.js middlewares. I built a RESTful API, handled errors in the application, performed data validation, and successfully deployed the application in production using Heroku and Vercel.",
       "icon": "",
       "preview": "",
       "link": "https://api-rest-with-express.vercel.app/api/",
@@ -14,7 +14,7 @@ const data = [
     {
       "order": 0,
       "name": "Shopi",
-      "description": "E-commerce",
+      "description": "I accomplished several key tasks: I added a basic route and a dynamic route, linked pages to create a Single Page Application (SPA), integrated pages using our custom API, designed custom App and Document components, developed UI pages and components for the site, created a simple store using Context, and implemented client-side navigation with React Router.",
       "icon": "",
       "preview": "",
       "link": "https://shopi-react-vite.netlify.app",
@@ -26,7 +26,7 @@ const data = [
     {
         "order": 1,
         "name": "Avo store",
-        "description": "E-commerce",
+        "description": "Working with Next.js, I accomplished several key tasks: I added a basic route and a dynamic route, linked pages to create a Single Page Application (SPA), integrated our custom API, designed pages using our own API, created custom App and Document components, configured path aliases, developed pages and UI components for the site, and implemented a simple store using Context.",
         "icon": "",
         "preview": "",
         "link": "https://next-js-itsluismario.vercel.app/",
