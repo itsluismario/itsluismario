@@ -10,6 +10,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     
     <MyInfoProvider>      
+
+      <Navbar/>
+      <Layout>
       <Head>
       <link
           rel="icon"
@@ -17,8 +20,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
         <title>itsluismario</title>
       </Head>
-      <Navbar/>
-      <Layout>
         <Component {...pageProps} />
         <Analytics />
       </Layout>
