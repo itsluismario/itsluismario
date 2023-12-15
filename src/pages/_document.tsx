@@ -5,12 +5,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-            {/* favicon */}
-            {/* Webfont */}
-            {/* Stylesheet */}
-            {/* script/js */}
-        </Head>
+      <Head>
+
+      </Head>
         <body>
           <Main />
           <NextScript />
