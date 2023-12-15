@@ -30,9 +30,13 @@ const Projects = () => {
               ) : null}
 
               <p className="text-ms opacity-90 ">
-                <a href={item.repo} key={item.repo} className="text-blue-600 visited:text-blue-600">
-                  Repo
-                </a>
+                { item.repo
+                  ? (
+                    <a href={item.repo} key={item.repo} className="text-blue-600 visited:text-blue-600">
+                    Repo
+                  </a>
+                  ) : null
+                }
               </p>
             </div>
           </section>

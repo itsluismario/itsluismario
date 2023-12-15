@@ -1,4 +1,15 @@
 const data = [
+  {
+    "order": 0,
+    "name": "Coftalmo",
+    "description": "We connect patients from remote locations without access to specialized public health with ophthalmologists through our cloud service.",
+    "icon": "",
+    "preview": "",
+    "link": "https://demo.coftalmo.com",
+    "color": "",
+    "darkColor": "",
+    "stack": ["TypeScript ", "Next.js", "React", "SQL"],
+  },
     {
       "order": 0,
       "name": "API Rest with Express.js",

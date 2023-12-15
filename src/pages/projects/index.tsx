@@ -4,7 +4,7 @@ import Navbar from '@src/components/Navbar/Navbar';
 
 const MyProjects = () => {
   return (
-    <main className="flex flex-col items-center justify-between">
+    <main className="relative px-6 pb-8 sm:mx-auto sm:max-w-2xl">
       
       <Projects/>
 
