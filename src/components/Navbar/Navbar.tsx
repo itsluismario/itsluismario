@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <main className="sm:flex sm:flex-col sm:items-center sm:justify-center ">
-    <nav className="flex justify-between items-center fixed z-10 dark:border-neutral-800 top-0 w-full max-w-5xl text-sm lg:flex border-b pl-10 pb-6 pt-8 backdrop-blur-2xl border-neutral-800 from-inherit lg:static">
+    <nav className="flex justify-between items-center fixed z-10 dark:border-neutral-800 top-0 w-full max-w-5xl text-sm lg:flex border-b pl-5 sm:pl-0 pb-6 pt-8 backdrop-blur-2xl border-neutral-800 from-inherit lg:static">
       <div className="text-white">
         <Link legacyBehavior href="/">
           <a className="text-xl font-bold">Hi, It&apos;s luismario</a>
