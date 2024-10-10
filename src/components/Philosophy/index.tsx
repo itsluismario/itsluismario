@@ -22,7 +22,7 @@ const PhilosophyContent = () => {
       <br />
       <h3 className='mb-3 text-md font-semibold'>Collaborating as a Team</h3>
       <p className='text-sm opacity-90 '>
-        I have realized that nothing works in isolation; everything needs to be accomplished as a team. Therefore, I have adhered to three principles that have proven to be fantastic: full transparency and total access to information, prioritizing the best idea over position or role, and promptly resolving problems. Whenever I encounter a problem I can&apos;t solve, I make sure to reach out to someone else who can assist.
+        I have realized that nothing works in isolation; everything needs to be accomplished as a team. Therefore, I have adhered to three principles that have proven to be fantastic: full transparency and total access to information, prioritizing the best idea over position or role, and promptly resolving problems. Whenever I encounter a problem I can not solve, I make sure to reach out to someone else who can assist.
       </p>
       <br />
       <h3 className='mb-3 text-md font-semibold'>
