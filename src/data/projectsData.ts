@@ -2,13 +2,13 @@ const data = [
   {
     "order": 0,
     "name": "Coftalmo",
-    "description": "We connect patients from remote locations without access to specialized public health with ophthalmologists through our cloud service.",
+    "description": "Coftalmo used to be a palfatorm to connect patients from remote locations without access to specialized public health with ophthalmologists through our cloud service... We are pivoting.",
     "icon": "",
     "preview": "",
-    "link": "https://demo.coftalmo.com",
+    "link": "https://cuidandotusojos.com",
     "color": "",
     "darkColor": "",
-    "stack": ["TypeScript ", "Next.js", "React", "SQL"],
+    "stack": ["TypeScript ", "Next.js", "React", "SQL", "AWS"],
   },
     {
       "order": 0,
