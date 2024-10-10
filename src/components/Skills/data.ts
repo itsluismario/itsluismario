@@ -46,5 +46,6 @@ export const skills: Skill[] = [
   // { name: 'Django', iconPath: mdiLanguagePython, color: '#fc6d26' },
   { name: 'Python', iconPath: mdiLanguagePython, color: '#fc6d26' },
   { name: 'Firebase', iconPath: mdiFirebase, color: '#fc6d26' },
+  { name: 'AWS', iconPath: mdiFirebase, color: '#fc6d26' },
   
 ];

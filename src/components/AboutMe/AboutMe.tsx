@@ -16,6 +16,10 @@ const AboutMe = () => {
       {/* <p className="text-sm opacity-90">
         However, I also understand my limitations and acknowledge that there is always room for growth. In recent months, I have focused on expanding my technical knowledge to become a well-rounded founder. I believe that continuous learning and self-improvement are essential in order to achieve greatness and drive meaningful change. By amplifying my knowledge and skills, I aim to position myself as a capable and visionary leader in the world of entrepreneurship.
       </p> */}
+      <p className="text-sm opacity-90">
+        In a few words, I am learning as much as I can to <label className='px-2 inline-flex rounded-full bg-purple-100 text-purple-800'>get 10,000 hours</label> learning about computing science by doing software.
+      </p>
+      <br />
     </div>
   )
 }
