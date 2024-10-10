@@ -20,6 +20,9 @@ const AboutMe = () => {
         In a few words, I am learning as much as I can to <label className='px-2 inline-flex rounded-full bg-purple-100 text-purple-800'>get 10,000 hours</label> learning about computing science by doing software.
       </p>
       <br />
+      <p className='text-sm opacity-90 '>
+        I also spend my time having fun playing the guitar and running 10km <label className='px-2 inline-flex rounded-full bg-purple-100 text-purple-800'>(my current record is 4:53/km).</label> 
+      </p>
     </div>
   )
 }

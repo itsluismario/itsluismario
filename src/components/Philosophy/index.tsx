@@ -31,10 +31,6 @@ const PhilosophyContent = () => {
       <p className='text-sm opacity-90 '>
         As we grow up, we tend to forget to enjoy the process and focus solely on reaching the goal.
       </p>
-      <br />
-      <p className='text-sm opacity-90 '>
-        I also spend my time having fun playing the guitar and running 10km <label className='px-2 inline-flex rounded-full bg-purple-100 text-purple-800'>(my current record is 4:53/km).</label> 
-      </p>
     </div>
   );
 };
