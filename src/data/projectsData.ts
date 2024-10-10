@@ -2,7 +2,8 @@ const data = [
   {
     "order": 0,
     "name": "Coftalmo",
-    "description": "Coftalmo used to be a palfatorm to connect patients from remote locations without access to specialized public health with ophthalmologists through our cloud service... We are pivoting.",
+    "description": "Coftalmo started as a platform connecting patients in remote areas with limited access to specialized public health services to ophthalmologists through our cloud service. Now, we are pivoting.",
+    "milestones": "We've also joined the Emprelatam incubator, where we secured non-equity funding to continue operations.",
     "icon": "",
     "preview": "",
     "link": "https://cuidandotusojos.com",

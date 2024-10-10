@@ -14,6 +14,11 @@ const Projects = () => {
             <p className="text-ms opacity-90">
               Description: {item.description}
             </p>
+            {item.milestones && (
+              <p className="text-ms opacity-90 mt-2 mb-2">
+                Milestones: <span className="underline text-cyan-200">{item.milestones}</span>
+              </p>
+            )}
             <section className='flex flex-row space-x-4'>
               <p className="text-ms opacity-90">Stack:</p>
               {item.stack.map((technology, index) => (
