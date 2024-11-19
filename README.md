@@ -1,16 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=35&duration=1000&pause=100&color=0CFF00&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=600&height=100&lines=INITIALIZING+NEURAL+NETWORK...;ROOT+ACCESS+CONFIRMED" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  
-███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
-████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
-██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝ 
-██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗ 
-██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
-╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
-                                              
+  <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=35&duration=2000&pause=500&color=00FF00&center=true&vCenter=true&width=500&lines=IINITIALIZING+NEURAL+NETWORK...;ROOT+ACCESS+CONFIRMED;SYSTEM+LOADING..." alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -85,13 +74,13 @@ SystemArchitect.initialize();
 ### 📡 COMMUNICATION CHANNELS
 
 <p align="center">
-  <a href="https://twitter.com/your-handle" style="text-decoration: none;">
+  <a href="https://twitter.com/itsluismario" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/TWITTER-0CFF00?style=for-the-badge&logo=twitter&logoColor=black" />
   </a>
-  <a href="https://linkedin.com/in/your-profile" style="text-decoration: none;">
+  <a href="https://linkedin.com/in/itsluismario" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/LINKEDIN-0CFF00?style=for-the-badge&logo=linkedin&logoColor=black" />
   </a>
-  <a href="https://github.com/your-profile" style="text-decoration: none;">
+  <a href="https://github.com/itsluismario" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/TERMINAL-0CFF00?style=for-the-badge&logo=gnu-bash&logoColor=black" />
   </a>
 </p>
