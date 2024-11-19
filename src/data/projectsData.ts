@@ -1,16 +1,37 @@
 const data = [
-  {
-    "order": 0,
-    "name": "Coftalmo",
-    "description": "Coftalmo started as a platform connecting patients in remote areas with limited access to specialized public health services to ophthalmologists through our cloud service. Now, we are pivoting.",
-    "milestones": "We've also joined the Emprelatam incubator, where we secured non-equity funding to continue operations.",
-    "icon": "",
-    "preview": "",
-    "link": "https://cuidandotusojos.com",
-    "color": "",
-    "darkColor": "",
-    "stack": ["TypeScript ", "Next.js", "React", "SQL", "AWS"],
-  },
+    {
+      "order": 0,
+      "name": "Coftalmo",
+      "description": "Coftalmo started as a platform connecting patients in remote areas with limited access to specialized public health services to ophthalmologists through our cloud service. Now, we are pivoting.",
+      "milestones": "We've also joined the Emprelatam incubator, where we secured non-equity funding to continue operations.",
+      "icon": "",
+      "preview": "",
+      "link": "https://cuidandotusojos.com",
+      "color": "",
+      "darkColor": "",
+      "stack": ["TypeScript ", "Next.js", "React", "SQL", "AWS"],
+    },
+    {
+      "order": 0,
+      "name": "Social Media Platform",
+      "description": "A full-stack social media application built with the MEAN stack. Features user authentication, post creation with image uploads, and real-time interactions. Implements JWT token-based authentication with auto-logout functionality.",
+      "milestones": "Implemented secure user authentication, file upload system, and responsive design using Spartan UI components and Tailwind CSS for styling.",
+      "icon": "",
+      "preview": "",
+      "link": "",
+      "color": "#DD0031",  // Angular's primary color
+      "darkColor": "#C3002F",  // Angular's darker shade
+      "stack": [
+        "Angular 17",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TypeScript",
+        "Tailwind CSS",
+        "Spartan UI",
+        "JWT"
+      ]
+    },
     {
       "order": 0,
       "name": "API Rest with Express.js",
