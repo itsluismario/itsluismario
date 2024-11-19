@@ -1,3 +1,4 @@
+// projectsData.ts
 const data = [
     {
       "order": 0,
@@ -19,8 +20,8 @@ const data = [
       "icon": "",
       "preview": "",
       "link": "",
-      "color": "#DD0031",  // Angular's primary color
-      "darkColor": "#C3002F",  // Angular's darker shade
+      "color": "#DD0031",
+      "darkColor": "#C3002F",
       "stack": [
         "Angular 17",
         "Node.js",
@@ -30,7 +31,11 @@ const data = [
         "Tailwind CSS",
         "Spartan UI",
         "JWT"
-      ]
+      ],
+      "repos": {
+        "frontend": "https://github.com/itsluismario/MEAN-frontend",
+        "backend": "https://github.com/itsluismario/MEAN-backend"
+      }
     },
     {
       "order": 0,

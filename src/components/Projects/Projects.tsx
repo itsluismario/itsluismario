@@ -3,53 +3,86 @@ import data from '@src/data/projectsData';
 
 const Projects = () => {
   return (
-    <div className="">
-      {
-        data?.map((item, index) =>
-          <section key={index} className="rounded-lg border border-transparent transition-colors hover:border-neutral-700 hover:bg-neutral-800 hover:bg-opacity-30 p-6">
-            <h2 className="mb-3 font-semibold mt-4 text-md  leading-6
-              px-2 inline-flex rounded-full bg-purple-100 text-purple-800">
-              {item.name}
-            </h2>
-            <p className="text-ms opacity-90">
-              Description: {item.description}
+    <div className="space-y-6">
+      {data?.map((item, index) => (
+        <section 
+          key={index} 
+          className="rounded-lg border border-transparent transition-colors hover:border-neutral-700 hover:bg-neutral-800 hover:bg-opacity-30 p-4 sm:p-6"
+        >
+          <h2 className="mb-3 font-semibold text-sm sm:text-md leading-6 px-2 inline-flex rounded-full bg-purple-100 text-purple-800">
+            {item.name}
+          </h2>
+          
+          <p className="text-sm sm:text-base opacity-90 mt-2">
+            Description: {item.description}
+          </p>
+          
+          {item.milestones && (
+            <p className="text-sm sm:text-base opacity-90 mt-2 mb-2">
+              Milestones: <span className="underline text-cyan-200">{item.milestones}</span>
             </p>
-            {item.milestones && (
-              <p className="text-ms opacity-90 mt-2 mb-2">
-                Milestones: <span className="underline text-cyan-200">{item.milestones}</span>
-              </p>
-            )}
-            <section className='flex flex-row space-x-4'>
-              <p className="text-ms opacity-90">Stack:</p>
+          )}
+
+          <div className='mt-4'>
+            <p className="text-sm sm:text-base opacity-90 mb-2">Stack:</p>
+            <div className="flex flex-wrap gap-2">
               {item.stack.map((technology, index) => (
-                <ul className="text-ms opacity-90" key={index}>{technology}</ul>
+                <span 
+                  key={index}
+                  className="px-2 py-1 text-xs sm:text-sm bg-neutral-800 rounded-full opacity-90"
+                >
+                  {technology}
+                </span>
               ))}
-            </section>
-
-            <div className='flex flex-row space-x-4'>
-              {item.link.length !== 9 ? (
-                <p className="text-ms opacity-90 ">
-                  <a href={item.link} key={item.link} className="mt-4 font-medium leading-6
-                inline-flex rounded-full text-fuchsia-200 hover:underline">
-                    View Project
-                  </a>
-                </p>
-              ) : null}
-
-              <p className="text-ms opacity-90 ">
-                { item.repo
-                  ? (
-                    <a href={item.repo} key={item.repo} className="mt-4 font-medium leading-6
-                inline-flex rounded-full text-cyan-200 hover:underline">
-                    Repo
-                  </a>
-                  ) : null
-                }
-              </p>
             </div>
-          </section>
-        )
-      }
+          </div>
+
+          <div className='flex flex-wrap gap-4 mt-4'>
+            {item.link.length !== 9 && (
+              <a 
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm sm:text-base font-medium leading-6 text-fuchsia-200 hover:underline"
+              >
+                View Project
+              </a>
+            )}
+
+            {item.repo && (
+              <a 
+                href={item.repo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm sm:text-base font-medium leading-6 text-cyan-200 hover:underline"
+              >
+                Repo
+              </a>
+            )}
+
+            {item.repos && (
+              <>
+                <a 
+                  href={item.repos.frontend}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm sm:text-base font-medium leading-6 text-cyan-200 hover:underline"
+                >
+                  Frontend Repo
+                </a>
+                <a 
+                  href={item.repos.backend}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm sm:text-base font-medium leading-6 text-cyan-200 hover:underline"
+                >
+                  Backend Repo
+                </a>
+              </>
+            )}
+          </div>
+        </section>
+      ))}
     </div>
   );
 };
