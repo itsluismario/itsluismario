@@ -14,7 +14,7 @@ type Props = {
 const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div className={inter.className}>  
-       <div>
+       <div className='mt-20'>
           { children }
         </div>
     </div>
