@@ -21,12 +21,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <title>itsluismario</title>
         </Head>
         <Navbar />
-        <main className="flex-grow mt-20">
           <Layout>
             <Component {...pageProps} />
             <Analytics />
           </Layout>
-        </main>
         <Footer />
       </div>
     </MyInfoProvider>
