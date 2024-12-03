@@ -14,6 +14,31 @@ const data = [
     },
     {
       "order": 0,
+      "name": "Disney+ Clone",
+      "description": "A Disney+ clone application built with Angular (frontend) and Node.js (backend). This project demonstrates modern web development practices with a focus on user authentication, content management, and streaming capabilities.",
+      "milestones": "Successfully implemented secure authentication, content streaming functionality, and responsive design across different devices. Deployed frontend on Vercel and backend on Render.",
+      "icon": "",
+      "preview": "",
+      "link": "https://disneyplus-clone-frontend-angular.vercel.app",
+      "color": "#113CCF",
+      "darkColor": "#0E2EA6",
+      "stack": [
+        "Angular",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TypeScript",
+        "TailwindCSS",
+        "JWT",
+        "Clerk"
+      ],
+      "repos": {
+        "frontend": "https://github.com/itsluismario/disneyplus-clone-frontend-angular",
+        "backend": "https://github.com/itsluismario/disneyplus-clone-backend-node-express"
+      }
+    },
+    {
+      "order": 0,
       "name": "Social Media Platform",
       "description": "A full-stack social media application built with the MEAN stack. Features user authentication, post creation with image uploads, and real-time interactions. Implements JWT token-based authentication with auto-logout functionality.",
       "milestones": "Implemented secure user authentication, file upload system, and responsive design using Spartan UI components and Tailwind CSS for styling.",
